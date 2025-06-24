@@ -26,9 +26,9 @@ struct SensorData {
 };
 
 // NETPIE Configuration
-const char* NETPIE_CLIENT_ID = "3403ada3-4db0-4e33-bed8-61dfef581791";
-const char* NETPIE_TOKEN = "PxB5RC2RQqJQ9hkpEXbwwkc9GstxKX6u";
-const char* NETPIE_SECRET = "gF8ckoiBmvLKUy7CcHQUBVA9LpSB4bAx";
+const char* NETPIE_CLIENT_ID = "YOUR_CLIENT_ID";
+const char* NETPIE_TOKEN = "YOUR_TOKEN";
+const char* NETPIE_SECRET = "YOUR_SECRET_KEY";
 WiFiClient espClient;
 PubSubClient mqttClient(espClient);
 

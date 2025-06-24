@@ -10,7 +10,9 @@ Each project combines hardware programming (using ESP32S2 and sensors) with soft
 
 | Project | Description | Key Features |
 |--------|-------------|--------------|
-| [Project 1:Temperature Prediction](./TemperatureForecasting) | Minutely data logging for 5 days and temperature forecasting using ML/DL | Linear Regression, SVR, LSTM |
+| [Project 1: Smart Sensor Streaming](./SmartSensor) | Real-time temperature & humidity monitoring with MQTT | ESP32, MQTT, PubSubClient |
+| [Project 2: Local Dashboard Logger](./LocalLogger) | Data sent from ESP32 to a local dashboard with graph display | HTML/JS dashboard, HTTP server |
+| [Project 3:Temperature Prediction](./TemperatureForecasting) | Minutely data logging for 5 days and temperature forecasting using ML/DL | Linear Regression, SVR, LSTM |
 
 
 ---

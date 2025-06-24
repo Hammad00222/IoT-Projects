@@ -19,10 +19,10 @@ Over a period of 5 days, temperature and humidity data were collected every minu
 
 ## How to Run
 
-1. Flash the ESP32 with the firmware in `/firmware`
+1. Connect the ESP32 with your PC
 2. Run the MQTT broker on your local machine or cloud
 3. Collect data for at least a few hours (ideally 5 to 7 days)
-4. Use notebooks in `/notebooks` to train and evaluate prediction models
+4. Use this data to train and evaluate prediction models
 
 ## Author
 

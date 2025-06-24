@@ -8,7 +8,7 @@
 
 // Wi-Fi credentials
 const char* ssid = "iPhone 15";
-const char* password = "doctor@9701";
+const char* password = "password";
 
 // NTP client
 WiFiUDP ntpUDP;

@@ -10,8 +10,8 @@ Each project combines hardware programming (using ESP32S2 and sensors) with soft
 
 | Project | Description | Key Features |
 |--------|-------------|--------------|
-| [Project 1: Smart Sensor Streaming](./SmartSensor) | Real-time temperature & humidity monitoring with MQTT | ESP32, MQTT, PubSubClient |
-| [Project 2: Local Dashboard Logger](./LocalLogger) | Data sent from ESP32 to a local dashboard with graph display | HTML/JS dashboard, HTTP server |
+| [Project 1: Watchdog Timer & FreeRTOS](./WatchdogRTOS) | Demonstrates task management and system reliability using FreeRTOS and ESP32's hardware watchdog timer | FreeRTOS tasks, ESP32 WDT, fault simulation |
+| [Project 2: Sensor Streaming to NETPIE](./CucumberNetpie) | Reads temperature, humidity, pressure, acceleration, and gyro from multiple sensors on ESP32-S2 (Cucumber), then streams to Serial Monitor and NETPIE cloud every minute | SHT4x/HTS221, BMP280, MPU6050, MQTT, NETPIE |
 | [Project 3:Temperature Prediction](./TemperatureForecasting) | Minutely data logging for 5 days and temperature forecasting using ML/DL | Linear Regression, SVR, LSTM |
 
 

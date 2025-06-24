@@ -145,7 +145,7 @@ void setup() {
   setupHardware();
   
   // Initialize WiFi
-  WiFi.begin("iPhone 15", "doctor@9701");
+  WiFi.begin("iPhone 15", "password");
   while (WiFi.status() != WL_CONNECTED) delay(500);
   
   // Create FreeRTOS components
